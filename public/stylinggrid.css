@@ -1,0 +1,57 @@
+
+.ui search {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ui search input {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.character p {
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+}
+h1 {
+    color: white;
+}
+.column {
+    padding: 1em;
+}
+
+
+button {
+    margin: 0 10px;
+    display: flex;
+    background: transparent;
+    border-radius:20px;
+    border: 3px solid #ccc;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    border-color: black;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+
+}
